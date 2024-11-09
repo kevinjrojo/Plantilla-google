@@ -1,0 +1,50 @@
+.target-1 {
+  grid-area: 1/2;
+  margin-left: 55%;
+  margin-top: 8%;
+  padding-left: 30px;
+  padding-bottom: 40px;
+  height: 140px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.target-2 {
+  margin-left: 5%;
+  grid-area: 2/2;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 40px;
+  height: 140px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.stiker {
+  display: flex;
+}
+.google {
+  margin-bottom: 0px;
+  max-width: 70px;
+  display: flex;
+}
+.meta {
+  max-width: 50px;
+}
+.start {
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+.title-target {
+  margin: 0px;
+}
+@media only screen and (max-width: 600px) {
+  .target-1 {
+    grid-area: 4/1;
+    margin-left: 0%;
+  }
+  .target-2 {
+    margin-left: 0%;
+    grid-area: 5/1;
+  }
+}

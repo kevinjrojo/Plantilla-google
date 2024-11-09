@@ -1,0 +1,26 @@
+.tilde {
+  width: 20px;
+  height: 20px;
+}
+.text-cheque {
+  margin-top: auto;
+}
+.cheque {
+  width: 73%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column: 1/1;
+  grid-area: 2/1;
+  margin-top: 20%;
+}
+@media only screen and (max-width: 600px) {
+  .cheque {
+    grid-area: 3/1;
+    margin-top: 3px;
+    width: 100%;
+  }
+  .text-cheque {
+    width: 100%;
+    padding-left: 10px;
+  }
+}
